@@ -6,7 +6,8 @@ namespace ExamenTecnico
     {
         static void Main(string[] args)
         {
-            BenchmarkRunner.Run<Benchmark.FindTheSumInArrayBenchmark>();
+            //Descomentar la línea de abajo para ejecutar los benchmark de rendimiento.
+            //BenchmarkRunner.Run<Benchmark.FindTheSumInArrayBenchmark>();
         }
         //Algoritmo que resuelve el problema asumiendo que los recursos son un bien preciado, valorando el tiempo de ejecución.
         //Notación O(2n) - Complejidad lineal.
